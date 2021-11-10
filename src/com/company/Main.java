@@ -1,16 +1,16 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
-
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        LeetCode_81 test = new LeetCode_81();
-        Scanner scan = new Scanner(System.in);
-        int[] nums = get_array(scan);
-        int target = get_digit(scan);
-        System.out.println(test.search(nums, target));
-
+        LeetCode_394 test = new LeetCode_394();
+        Scanner scanner = new Scanner(System.in);
+        String s = get_str(scanner);
+        System.out.println(test.decodeString(s));
     }
 
     public static int[] get_array(Scanner scan) {
